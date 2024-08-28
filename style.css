@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  background-color: pink
+}
+
+#clock-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+#clock {
+  font-size: 5.5rem;
+  text-align: center;
+  color: white;
+}
+
+#input-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1.5rem;
+  color: hsl(350, 76%, 62%);
+}
+
