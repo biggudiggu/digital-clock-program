@@ -9,21 +9,31 @@
   </head>
   <body>
     <div id="clock-container">
-      <div id="clock">00:00:00</div>
-      <div id="input-container">
-        <div>
-          <input
-            type="radio"
-            name="hourClock"
-            id="24HourClock"
-            checked
-            value="24"
-          />
-          <label for="24HourClock">24-hour-clock</label>
-        </div>
-        <div>
-          <input type="radio" name="hourClock" id="12HourClock" value="12" />
-          <label for="12HourClock">12-hour-clock</label>
+      <h1>DIGITAL CLOCK</h1>
+      <div id="container">
+        <div id="clock">00:00:00</div>
+        <div id="input-container">
+          <div>
+            <input
+              type="radio"
+              name="hourClock"
+              id="24HourClock"
+              checked
+              value="24"
+              class="checkBox"
+            />
+            <label for="24HourClock" class="checkBox">24-hour-clock</label>
+          </div>
+          <div>
+            <input
+              type="radio"
+              name="hourClock"
+              id="12HourClock"
+              value="12"
+              class="checkBox"
+            />
+            <label for="12HourClock" class="checkBox">12-hour-clock</label>
+          </div>
         </div>
       </div>
     </div>
